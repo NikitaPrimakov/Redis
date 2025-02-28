@@ -23,7 +23,7 @@ spec:
           - redis-server
         args:
           - "--slaveof"
-          - "redis"
+          - "redis-master"
           - "6379"
         ports:
         - containerPort: 6379
